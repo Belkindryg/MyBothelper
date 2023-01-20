@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  mybothelper:
+    image: ghcr.io/numbnp/mybothelper
+    environment:
+      TELEGRAM_BOT_TOKEN: 
+      OPENAI_API_KEY: 
+    restart: always
